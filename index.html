@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page institucional para promoção de doações.">
+  <title>Instituto Orire</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <script defer src="js/script.min.js"></script>
+</head>
+<body>
+  <!-- Menu -->
+  <header class="container bg-white">
+    <div class="nav__container">
+      <div class="logo-nav">
+        <img src="img/logo.png" alt="Logo do Instituto Orire" class="logo">
+      </div>
+        <nav>
+          <ul class="nav-links">
+            <li class="menu-item active"><a href="index.html">Início</a></li>
+            <li><a href="pages/sobre.html">Sobre</a></li>
+            <li><a href="pages/fundadores.html">Fundadores</a></li>
+            <li><a href="pages/projetos.html">Nossos Projetos</a></li>
+            <li><a href="pages/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="menu-hamburguer">
+          ☰
+        </div>
+    </div>
+    <div class="menu-mobile">
+      <span class="close-btn">&times;</span>
+      <ul>
+        <li class="menu-item active"><a href="index.html">Início</a></li>
+        <li><a href="pages/sobre.html">Sobre</a></li>
+        <li><a href="pages/fundadores.html">Fundadores</a></li>
+        <li><a href="pages/projetos.html">Nossos Projetos</a></li>
+        <li><a href="pages/contato.html">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Seção Início -->
+  <main id="inicio">
+    <section class="container-full">
+      <div class="row">
+        <div class="col-6 p-0">
+          <img class="home__img" src="img/inicio-img-1.jpg" alt="Imagem lado esquerdo">
+        </div>
+        <div class="col-6 p-0">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="home__title text-brown">Você também é parte da mudança!</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="p-0 bg-brown">
+              <div class="col-12">
+              <div class="home__cta">
+                  <p class="home__subtitle text-white"> Apoie o Instituto Orire e transforme realidades através da Comunicação e da Educação </p>
+                  <div class="home-cta">
+                    <button class="home__btn" onclick="scrollToSection('secao-apoie')"> APOIAR </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="home__sobre">
+            <p class="home__paragrafo">
+              O Instituto Orire de Comunicação e Educação tem como missão promover a educação, inclusão e desenvolvimento social, utilizando ferramentas comunicacionais para fomentar a equidade racial e a justiça social.
+              O Instituto Orire é fruto de duas iniciativas de sucesso: o portal Notícia Preta e a Escola de Comunicação Antirracista.
+            </p>
+        </div>
+        </div>
+        <div class="col-6 p-0">
+          <img class="home__img" src="img/inicio-img-2.jpg" alt="Imagem direita">
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Razões para Doar -->
+    <section id="razoes" class="container pt-xl pb-xl">
+      <div class="row">
+        <div class="doar__section">
+        <div class="col-4 t-center"><img src="img/razoes-img-left.png" alt="Imagem"></div>
+        <div class="col-4 t-center"><h2 class="doar__title">Razões para doar</h2></div>
+        <div class="col-4 t-center"><img src="img/razoes-img-left.png" alt="Imagem"></div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-4 bg-orange">
+          <p class="t-bold t-center text-white">Promover a Equidade Racial:</p><p class="t-center text-white">Ofereça oportunidades iguais para jovens negros e periféricos.</p></div>
+        <div class="col-4 bg-brown"><p class="t-bold t-center text-white">Impacto na Comunidade:
+        </p><p class="t-center text-white">Apoie projetos que melhoram a vida nas periferias e periféricos.</p></div>
+        <div class="col-4 bg-orange"><p class="t-bold t-center text-white">Educação Transformadora:</p><p class=" t-center text-white">Financiamento de cursos e programas educacionais para periferias e periféricos.</p>
+        </div>
+      </div>
+      <div class="row">
+        <img class="donate__img" src="img/banner-1.png" alt="Imagem larga">
+      </div>
+      <div class="row">
+        <div class="col-4 bg-brown"><p class="t-bold t-center text-white">Combate à Desigualdade Social:</p><p class="t-center text-white">Ajude a combater desigualdades sociais.
+        </p></div>
+        <div class="col-4 bg-orange"><p class="t-bold t-center text-white">Transparência e Responsabilidade:</p><p class="t-center text-white">Contribuições usadas de forma ética e eficaz.</p></div>
+        <div class="col-4 bg-brown"><p class="t-bold t-center text-white">Fortalecimento da Cultura e Identidade:</p><p class="t-center text-white">Apoie a valorização da cultura afro-brasileira.</p></div>
+      </div>
+      <div class="row">
+        <img class="donate__img" src="img/banner-2.png" alt="Imagem larga">
+      </div>
+      <div class="row">
+        <div class="col-4 bg-orange"><p class="t-bold t-center text-white">Parcerias de Impacto:</p><p class="t-center text-white">Expanda colaborações e crie novas oportunidades.</p></div>
+        <div class="col-4 bg-brown"><p class="t-bold t-center text-white">Empoderamento Comunitário:</p><p class="t-center text-white">Invista no empoderamento de comunidades vulneráveis.</p></div>
+        <div class="col-4 bg-orange"><p class="t-bold t-center text-white">Inclusão Digital e Tecnológica:</p><p class="t-center text-white">Proporcione acesso a recursos tecnológicos.</p></div>
+      </div>
+    </section>
+    <section id="razoes" class="container pt-xl pb-xl">
+      <div class="row">
+        <div class="col-12">
+          <div class="donation-container">
+            <h1>Ajude a construir um futuro com mais equidade e inclusão.<br>Doe e faça a diferença!</h1>
+            <br>
+            <p>Você é parte da mudança!<br>Doe agora e ajude a construir um futuro mais justo e inclusivo.</p>
+        </div>
+        </div>
+      </div>
+      <div class="row" id="secao-apoie">
+        <div class="col-3">
+          <div class="card text-center">
+            <div class="card-body">
+                <p class="price"><span>R$20</span>/mensais</p>
+                <button class="donate-button" onclick="window.location.href='https://www.asaas.com/c/6dw7in2brw80zhmg'">DOAR</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-center">
+            <div class="card-body">
+                <p class="price"><span>R$50</span>/mensais</p>
+                <button class="donate-button" onclick="window.location.href='https://www.asaas.com/c/x5ccgym2sqhi437c'">DOAR</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-center">
+            <div class="card-body">
+                <p class="price"><span>R$100</span>/mensais</p>
+                <button class="donate-button" onclick="window.location.href='https://www.asaas.com/c/qajzh91xfqb71plk'">DOAR</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card text-center">
+            <div class="card-body">
+                <p class="price"><span>Definir</span>/mensais</p>
+                <button class="donate-button" onclick="window.location.href='https://www.asaas.com/c/q2k4qgsrzyzf2ixe'">DOAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer style="background-color: #566A30; color: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <nav>
+            <ul class="footer-nav">
+              <li><a href="pages/sobre.html">Sobre</a></li>
+              <li><a href="pages/fundadores.html">Fundadores</a></li>
+              <li><a href="pages/projetos.html">Nossos Projetos</a></li>
+              <li><a href="pages/contato.html">Contato</a></li>
+            </ul> 
+          </nav>
+        </div>
+        <div class="col-4">
+          <div class="social-media">
+            <a href="https://www.facebook.com/share/bUh8h7R4z1Q1AWJp/?mibextid=LQQJ4d" class="circle"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/noticia.preta?igsh=MTY1endkZ3I1azFheQ=="  class="circle"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/c/Not%C3%ADciaPreta"  class="circle"><img src="img/youtube.png" alt="YouTube"></a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="d-flex-end">
+            <img class="logo-rodape" src="img/logo-rodape.png" alt="Logo no rodapé">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
